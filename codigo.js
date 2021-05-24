@@ -33,15 +33,17 @@ valores.forEach((valor, index, valores) =>  {
 } );
 console.log(valores); // Volvemos a printar para comprobar si
                       // Si ha cambiado
-
+var suma = 0;
+var resta = 0;
+var multip = 0;
 valores.forEach((valor, index, valores) =>  {
-    if (valor === Number) {
-       valores[index] = false
+    if ((typeof(valor) === 'number')) {
+        suma += valor
+        resta -= valor
+        multip *= valor
     }
-
-    
-    if (valor === false) {
-        valores[index]  = true
-     }
 } );
-console.log(valores);
+console.log(suma);
+console.log(resta);
+console.log(multip);
+
