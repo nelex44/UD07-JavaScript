@@ -33,17 +33,26 @@ valores.forEach((valor, index, valores) =>  {
 } );
 console.log(valores); // Volvemos a printar para comprobar si
                       // Si ha cambiado
-var suma = 0;
-var resta = 0;
-var multip = 0;
-valores.forEach((valor, index, valores) =>  {
-    if ((typeof(valor) === 'number')) {
-        suma += valor
-        resta -= valor
-        multip *= valor
-    }
-} );
-console.log(suma);
-console.log(resta);
-console.log(multip);
+// var suma = 0;
+// var resta = 0;
+// var multip = 0;
+// valores.forEach((valor, index, valores) =>  {
+//     if ((typeof(valor) === 'number')) {
+//         suma += valor
+//         resta -= valor
+//         multip *= valor
+//     }
+// } );
+// console.log(suma);
+// console.log(resta);
+// console.log(multip);
 
+// var primerValor = 0;
+// valores.forEach((valor, index, valores) =>  {
+//     if ((typeof(valor) === 'number') && primerValor === 0) {
+//         suma += valor
+//         resta -= valor
+//         multip *= valor
+//     }
+// } );
+// console.log(suma);
